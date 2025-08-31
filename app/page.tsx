@@ -182,30 +182,15 @@ export default function PepeArmy() {
             >
               Home
             </button>
-            <a
-              href="https://t.me/pepeArmy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue"
-            >
+            <span className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue cursor-default">
               Basecamp(TG)
-            </a>
-            <a
-              href="https://twitter.com/pepeArmy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue"
-            >
+            </span>
+            <span className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue cursor-default">
               Comms(X)
-            </a>
-            <a
-              href="https://dextools.io"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue"
-            >
+            </span>
+            <span className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue cursor-default">
               DexTools
-            </a>
+            </span>
             <button
               onClick={() => setShowContent(false)}
               className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue"
