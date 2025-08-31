@@ -170,9 +170,9 @@ export default function PepeArmy() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-white flex">
+    <div className="min-h-screen bg-blue-900 text-white flex">
       {/* Left Sidebar */}
-      <div className="w-1/2 bg-black p-8 flex flex-col">
+      <div className="w-1/2 bg-blue-900 p-8 flex flex-col">
         {/* Navigation */}
         <nav className="mb-12">
           <div className="flex space-x-8 text-gray-400 text-sm font-mono">
@@ -303,7 +303,7 @@ export default function PepeArmy() {
                     className="object-cover transition-all duration-700 group-hover:brightness-110"
                     priority={index === 0}
                   />
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-500"></div>
+                  <div className="absolute inset-0 bg-blue-900 bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-500"></div>
                   <div className="absolute top-8 left-8 transform transition-all duration-500 group-hover:translate-x-4">
                     <div className="flex items-center">
                       <span className="text-2xl mr-4 text-white drop-shadow-lg transition-all duration-300 group-hover:text-green-400">
