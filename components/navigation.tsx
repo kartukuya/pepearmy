@@ -6,9 +6,9 @@ import { ExternalLink, MessageCircle, BarChart3, ShoppingCart } from "lucide-rea
 export function Navigation() {
   const navItems = [
     { name: "Home", href: "#", icon: null },
-    { name: "Basecamp(TG)", href: "#", icon: MessageCircle, external: false },
-    { name: "Comms(X)", href: "#", icon: ExternalLink, external: false },
-    { name: "DexTools", href: "#", icon: BarChart3, external: false },
+    { name: "Basecamp(TG)", href: "https://t.me/portalpepearmy", icon: MessageCircle, external: true },
+    { name: "Comms(X)", href: "https://x.com/basepepearmy_", icon: ExternalLink, external: true },
+    { name: "Dexscreen", href: "#", icon: BarChart3, external: false },
     { name: "Supply(Buy)", href: "#buy", icon: ShoppingCart },
   ]
 

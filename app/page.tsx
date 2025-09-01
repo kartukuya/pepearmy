@@ -182,14 +182,24 @@ export default function PepeArmy() {
             >
               Home
             </button>
-            <span className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue cursor-default">
+            <a
+              href="https://t.me/portalpepearmy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue"
+            >
               Basecamp(TG)
-            </span>
-            <span className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue cursor-default">
+            </a>
+            <a
+              href="https://x.com/basepepearmy_"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue"
+            >
               Comms(X)
-            </span>
+            </a>
             <span className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue cursor-default">
-              DexTools
+              Dexscreen
             </span>
             <button
               onClick={() => setShowContent(false)}
