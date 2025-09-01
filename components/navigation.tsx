@@ -8,8 +8,18 @@ export function Navigation() {
     { name: "Home", href: "#", icon: null },
     { name: "Basecamp(TG)", href: "https://t.me/portalpepearmy", icon: MessageCircle, external: true },
     { name: "Comms(X)", href: "https://x.com/basepepearmy_", icon: ExternalLink, external: true },
-    { name: "Dexscreen", href: "#", icon: BarChart3, external: false },
-    { name: "Supply(Buy)", href: "#buy", icon: ShoppingCart },
+    {
+      name: "Dexscreen",
+      href: "https://dexscreener.com/base/0x057633B7f75c5577345A9F21c6E0eE28c46C668A",
+      icon: BarChart3,
+      external: true,
+    },
+    {
+      name: "Supply(Buy)",
+      href: "https://ape.store/base/0x27902d6c11773479b9d52e81ecb1227ac6f20477",
+      icon: ShoppingCart,
+      external: true,
+    },
   ]
 
   return (

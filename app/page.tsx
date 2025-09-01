@@ -198,15 +198,22 @@ export default function PepeArmy() {
             >
               Comms(X)
             </a>
-            <span className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue cursor-default">
+            <a
+              href="https://dexscreener.com/base/0x057633B7f75c5577345A9F21c6E0eE28c46C668A"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue"
+            >
               Dexscreen
-            </span>
-            <button
-              onClick={() => setShowContent(false)}
+            </a>
+            <a
+              href="https://ape.store/base/0x27902d6c11773479b9d52e81ecb1227ac6f20477"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-white transition-all duration-300 hover:scale-105 hover:glow-blue"
             >
               Supply(Buy)
-            </button>
+            </a>
           </div>
         </nav>
 

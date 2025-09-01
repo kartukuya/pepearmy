@@ -8,7 +8,12 @@ export function SocialLinks() {
     { name: "Telegram", icon: MessageCircle, url: "https://t.me/portalpepearmy", color: "bg-blue-500" },
     { name: "Twitter", icon: Twitter, url: "https://x.com/basepepearmy_", color: "bg-sky-500" },
     { name: "Website", icon: Globe, url: "#", color: "bg-green-500" },
-    { name: "Dexscreen", icon: BarChart3, url: "#", color: "bg-purple-500" },
+    {
+      name: "Dexscreen",
+      icon: BarChart3,
+      url: "https://dexscreener.com/base/0x057633B7f75c5577345A9F21c6E0eE28c46C668A",
+      color: "bg-purple-500",
+    },
   ]
 
   return (
